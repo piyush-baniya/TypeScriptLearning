@@ -8,7 +8,7 @@ const scores = [10,20,30];
 
 // over annotation isn't bad -> just noisy
 
-export function add(a : number,b : number) : number {
+function add(a : number,b : number) : number {
   return a + b;
 }
 
