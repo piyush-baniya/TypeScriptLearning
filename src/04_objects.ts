@@ -28,3 +28,10 @@ type User2 = {
 type User3 = {
   email: string | undefined; // mandatory but it can be string or undefined
 };
+
+type Count = { [k: string]: number };
+
+type Count1 = Record<"likes" | "views" | "shares", number>;
+
+const c1: Count = { whatever: 1 };
+// const c2: Count1 = { likes: 1, views: 2, shares: 3, randomKey: 5 };
